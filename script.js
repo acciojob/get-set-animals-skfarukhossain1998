@@ -17,14 +17,14 @@ class Animal {
 class Dog extends Animal {
 	bark()
 	{
-		console.log("woof");
+		console.log(`woof`);
 	}
 }
 
 class Cat extends Animal {
 	purr()
 	{
-		console.log("purr");
+		console.log(`purr`);
 	}
 }
 
@@ -33,13 +33,11 @@ window.Animal = Animal;
 window.Dog = Dog;
 window.Cat = Cat;
 
-const cat  = new Cat('Siamese');
-cat.makeSound();
-/* console.log(john.name);  */// Output: John
-cat.purr();
+const myCat  = new Cat('Siamese');
+myCat.makeSound();
+myCat.purr();
 
-const dog  = new Dog('Golden Retriever');
-dog.makeSound();
-/* console.log(john.name);  */// Output: John
-dog.bark();
+const myDog   = new Dog('Golden Retriever');
+myDog .makeSound();
+myDog .bark();
 
