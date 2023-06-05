@@ -32,3 +32,12 @@ class Cat extends Animal {
 window.Animal = Animal;
 window.Dog = Dog;
 window.Cat = Cat;
+
+const cat  = new Cat('purr');
+/* console.log(john.name);  */// Output: John
+cat.purr();
+
+const dog  = new Dog('woof');
+/* console.log(john.name);  */// Output: John
+dog.bark();
+
